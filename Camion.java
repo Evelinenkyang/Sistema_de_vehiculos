@@ -7,6 +7,11 @@ public class Camion extends Vehiculo{
         super(marca,modelo,anio,precio);
         this.capacidadCarga = capacidadCarga;
         this.numeroEjes = numeroEjes;
-        
+    }
+    public void cargarMercancia(){
+        System.out.println("El camion "+ getMarca() +" esta cargando mercancia");
+    }
+    public void mostrarCapacidad(){
+        System.out.println("Capacidad de carga: "+ capacidadCarga +" toneladas");
     }
 }
