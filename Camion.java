@@ -15,3 +15,4 @@ public class Camion extends Vehiculo{
         System.out.println("Capacidad de carga: "+ capacidadCarga +" toneladas");
     }
 }
+
